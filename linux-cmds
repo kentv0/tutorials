@@ -1,0 +1,4 @@
+***** Append/Replace *****
+:%s/$/<text>/g              // Append the front of all lines with <text>.
+:%s!^!<text>!               // Append the end of all lines with <text>.
+:%s/<text1>/<text2>/g       // Replace all <text1> with <text2>.
